@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Destroying all nodes 
+NODES="node1 node2 server1" 
+
+for i in $NODES
+do
+  cd $i
+  vagrant destroy -f 
+  cd -
+
+done 
+exit 0;
+
+ 
