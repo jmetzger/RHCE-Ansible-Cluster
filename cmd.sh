@@ -6,7 +6,7 @@ echo $CALLED_BY
 
 case $CALLED_BY in
 run.sh)
-  VAGRANT_SUBCMD="run"
+  VAGRANT_SUBCMD="up"
   ;;
 destroy.sh)
   VAGRANT_SUBCMD="destroy -f"
