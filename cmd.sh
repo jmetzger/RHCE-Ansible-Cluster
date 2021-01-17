@@ -24,6 +24,11 @@ do
   cd -
 done 
 
+# start the control node as last server 
+cd servers/$CONTROL_NODE 
+vagrant $VAGRANT_SUBCMD 
+cd -
+
 exit 0;
 
  

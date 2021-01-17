@@ -1,1 +1,2 @@
-NODES="node1 node2 server1"
+NODES="servera serverb serverc serverd"
+CONTROL_NODE="workstation" 
